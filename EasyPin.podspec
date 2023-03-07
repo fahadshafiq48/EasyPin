@@ -21,8 +21,8 @@ Pod::Spec.new do |s|
   EasyPin is a pod written in SwiftUI which lets you create PIN code and keypad easily with customisation according to your own liking.
                        DESC
 
-  s.homepage         = 'https://github.com/Fahad Shafiq/EasyPin'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/fahadshafiq48/EasyPin'
+  s.screenshots     = 'https://raw.githubusercontent.com/fahadshafiq48/EasyPin/main/.github/pinView.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fahad Shafiq' => 'fahadshafiq48@gmail.com' }
   s.source           = { :git => 'https://github.com/fahadshafiq48/EasyPin.git', :tag => s.version.to_s }
@@ -33,9 +33,9 @@ Pod::Spec.new do |s|
   s.source_files = 'EasyPin/Classes/**/*'
   s.swift_version = '5.0'
   
-  # s.resource_bundles = {
-  #   'EasyPin' => ['EasyPin/Assets/*.png']
-  # }
+  s.resource_bundles = {
+     'EasyPin' => ['EasyPin/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
