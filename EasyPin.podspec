@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EasyPin'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'EasyPin is a SwiftUI based customizable pin code generator'
 
 # This description is used to generate tags and improve search results.
