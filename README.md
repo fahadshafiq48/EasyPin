@@ -5,6 +5,8 @@
 [![License](https://img.shields.io/cocoapods/l/EasyPin.svg?style=flat)](https://cocoapods.org/pods/EasyPin)
 [![Platform](https://img.shields.io/cocoapods/p/EasyPin.svg?style=flat)](https://cocoapods.org/pods/EasyPin)
 
+![EasyPin logo](https://raw.githubusercontent.com/fahadshafiq48/EasyPin/main/.github/pinView.png)
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
