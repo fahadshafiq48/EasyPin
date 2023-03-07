@@ -1,6 +1,0 @@
-framework module Pods_EasyPin_Tests {
-  umbrella header "Pods-EasyPin_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}
