@@ -30,12 +30,12 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'Classes/**/*.swift'
+  s.source_files = ''EasyPin/Classes/**/*'
   s.swift_version = '5.0'
   
-  s.resource_bundles = {
-     'EasyPin' => ['EasyPin/Assets/*.png']
-  }
+  #s.resource_bundles = {
+  #   'EasyPin' => ['EasyPin/Assets/*.png']
+  #}
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
