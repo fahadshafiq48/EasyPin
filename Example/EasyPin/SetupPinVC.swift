@@ -25,7 +25,7 @@ struct SetupPinVC: View {
                         .font(.system(size: 18))
                         .foregroundColor(.white)
                     
-                    PinCodeWidget.shared.addPinCode(limit: pinLimit, text: pinCode, fillColor: Color.blue, borderColor: Color.white, height: 40, width: 40, cornerRadius: 20)
+                    PinCodeWidget.shared.addPinCode(limit: pinLimit, text: pinCode, fillColor: Color.white, borderColor: Color.white, height: 40, width: 40, cornerRadius: 20)
                 }
                 .frame(maxHeight: .infinity, alignment: .top)
                 
@@ -38,10 +38,10 @@ struct SetupPinVC: View {
                 .frame(maxHeight: .infinity, alignment: .bottom)
                 .padding([.bottom], 16)
             }
-        }
-        
-        .onAppear {
-            pinCode = ""
+            
+            .onAppear {
+                pinCode = ""
+            }
         }
     }
     
