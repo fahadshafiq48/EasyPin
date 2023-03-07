@@ -46,7 +46,8 @@ let pinLimit = 4
 
 Now you can simply make Pin view using the following code
 ```ruby
-PinCodeWidget.shared.addPinCode(limit: pinLimit, text: pinCode, fillColor: Color.blue, borderColor: Color.white, height: 40, width: 40, cornerRadius: 20)
+PinCodeWidget.shared.addPinCode(limit: pinLimit, text: pinCode, fillColor: Color.blue,
+borderColor: Color.white, height: 40, width: 40, cornerRadius: 20)
 ```
   
 ### KeyPad View
@@ -54,7 +55,8 @@ PinCodeWidget.shared.addPinCode(limit: pinLimit, text: pinCode, fillColor: Color
 To make the keypad first make a object of PinCodeWidget
 
 ```ruby
-let keypad = PinCodeWidget(keyHeight: 56, keyBgColor: .clear, keyTextColor: .white, keyFont: .system(size: 48))
+let keypad = PinCodeWidget(keyHeight: 56, keyBgColor: .clear,
+keyTextColor: .white, keyFont: .system(size: 48))
 ```
 
 now use the keypad object and draw the keypad. Here we are onUpdate method with pinCode which allow us to perform some action when user will press some key
