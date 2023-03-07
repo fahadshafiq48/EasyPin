@@ -1,0 +1,16 @@
+PODS:
+  - EasyPin (0.1.0)
+
+DEPENDENCIES:
+  - EasyPin (from `../`)
+
+EXTERNAL SOURCES:
+  EasyPin:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EasyPin: c8005418e2fbef0090690c83814c729871cd57c3
+
+PODFILE CHECKSUM: 8c1c7adb1207f2968cf4330331fad49938aad733
+
+COCOAPODS: 1.11.3

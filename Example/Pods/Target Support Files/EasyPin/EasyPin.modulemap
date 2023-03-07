@@ -1,0 +1,6 @@
+framework module EasyPin {
+  umbrella header "EasyPin-umbrella.h"
+
+  export *
+  module * { export * }
+}
