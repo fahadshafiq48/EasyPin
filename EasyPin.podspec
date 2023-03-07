@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'EasyPin'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of EasyPin.'
+  s.summary          = 'EasyPin is a SwiftUI based customizable pin code generator'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,19 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  EasyPin is a pod written in SwiftUI which lets you create PIN code and keypad easily with customisation according to your own liking.
                        DESC
 
   s.homepage         = 'https://github.com/Fahad Shafiq/EasyPin'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Fahad Shafiq' => 'fahadshafiq48@gmail.com' }
-  s.source           = { :git => 'https://github.com/Fahad Shafiq/EasyPin.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/fahadshafiq48/EasyPin.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'EasyPin/Classes/**/*'
+  s.swift_version = '5.0'
   
   # s.resource_bundles = {
   #   'EasyPin' => ['EasyPin/Assets/*.png']
