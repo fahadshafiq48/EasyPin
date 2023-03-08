@@ -14,6 +14,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 - iOS version 13 or above
+- SwiftUI
 
 ## Installation
 
